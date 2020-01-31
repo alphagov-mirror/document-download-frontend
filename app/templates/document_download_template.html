@@ -21,7 +21,7 @@
 {% endblock %}
 
 {% block page_title %}
-	GOV.UK - Document download
+  {% block per_page_title %}Document download{% endblock %} – GOV.UK
 {% endblock %}
 
 {% block content %}
@@ -35,5 +35,3 @@
 		</main>
 	</div>
 {% endblock %}
-
-
